@@ -1,6 +1,6 @@
 ## weblearn-layer-linear
 
-Simple fully connected layer for [WebLearn]
+Simple fully-connected layer for [WebLearn]
 
 ### Usage
 ```
