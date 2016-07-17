@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "old": "^0.1.3",
-    "weblearn": "*"
+    "weblearn-tensor": "^1.0.0",
+    "weblearn-module": "^1.0.0"
   },
   "author": "Judd Keppel <kepzorz@gmail.com>",
   "license": "ISC"

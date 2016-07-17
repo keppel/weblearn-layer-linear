@@ -1,5 +1,6 @@
 'use strict'
-const { Tensor, Module } = require('weblearn')
+const Tensor = require('weblearn-tensor')
+const Module = require('weblearn-module')
 const old = require('old')
 
 class Linear extends Module {
@@ -17,7 +18,6 @@ class Linear extends Module {
       this.bias = new Tensor(this.outputSize)
       this.gradBias = new Tensor(this.outputSize)
     }
-
     this.reset()
   }
 
